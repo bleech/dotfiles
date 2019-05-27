@@ -5,6 +5,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mas-cli/tap"
+tap "exolnet/homebrew-deprecated"
 
 # Core packages
 brew "pkg-config"
@@ -25,8 +26,8 @@ brew "httpd", restart_service: true
 brew "mysql@5.7", restart_service: true, link: true
 brew "php@5.6"
 brew "php@7.0"
-brew "php@7.1", restart_service: true, link: true
-brew "php@7.2", link: false
+brew "php@7.1", link: false
+brew "php@7.2", restart_service: true, link: true
 brew "php@7.3", link: false
 brew "dnsmasq", restart_service: true
 brew "composer"
