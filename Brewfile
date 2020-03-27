@@ -20,6 +20,7 @@ brew "wget"
 brew "pwgen"
 brew "zsh"
 brew "mas"
+brew "wp-cli"
 
 # Development environment
 brew "httpd", restart_service: true
